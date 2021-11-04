@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Header, Title } from '../../components';
 
 const Home = () => (
@@ -9,7 +10,7 @@ const Home = () => (
       Está tendo problema com a organização das tarefas?
       Que tal usar um aplicativo que te ajude com isso?
     </h2>
-    <a href="#Todo">Utilize-o agora mesmo!</a>
+    <Link to="/todo">Utilize-o agora mesmo!</Link>
   </div>
 );
 
